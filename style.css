@@ -1,0 +1,348 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+* {
+    font-family: "averta CY w10";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+
+.first-page {
+    background: url(images/close-up-sensual-woman-s-face.jpg), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 4.5vw;
+    align-items: center;
+}
+
+.hero {
+    font-size: 21px;
+}
+
+.hero-name {
+    color: crimson;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-inline: 20px;
+    font-weight: 500;
+    transition: 0.2s;
+    position: relative;
+}
+
+.navbar ul li a::after {
+    content: "";
+    background-color: rgb(57, 57, 57);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 0%;
+    height: 2.2px;
+    width: 0%;
+}
+
+.navbar ul li a:hover::after {
+    animation: 0.8s line;
+}
+
+.navbar ul li a:hover {
+    color: crimson;
+}
+
+.navbar ul button {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 20px;
+    background: crimson;
+    border-radius: 50px;
+    border: 2px solid red;
+    transition: 1s;
+
+}
+.navbar ul i{
+    margin-left: 10px;
+    display: none;
+    font-size: 20px;
+}
+
+.name-section {
+    width: 100%;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.about {
+    margin-top: 15vw;
+    padding-inline: 10vw;
+}
+
+.hello,
+.passion {
+    font-size: 5vh;
+    margin-block: 4px;
+}
+
+.name {
+    font-size: 6vh;
+    color: crimson;
+    line-height: 1;
+}
+
+.passion {
+    margin-bottom: 16px;
+}
+
+.linkdin-button {
+    text-decoration: none;
+    padding: 8px 28px;
+    font-size: 18px;
+    font-weight: 700;
+    background: none;
+    color: crimson;
+    border-radius: 50px;
+    border: 2px solid crimson;
+    transition: 1s;
+}
+.linkdin-button:hover{
+    background-color: crimson;
+    color: white;
+}
+
+.aboutme-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 3vw;
+    margin: 0px 20px 20px 20px;
+    border-radius: 50px;
+    background-color: white;
+    position: relative;
+}
+
+
+.about-me {
+    width: 30%;
+}
+
+#aboutme-text {
+    font-size: 27px;
+    color: black;
+}
+
+#passion-text {
+    margin-block: 12px;
+    font-size: 3vw;
+    line-height: 1.0111;
+    color: crimson;
+}
+
+#passion-text span {
+    color: black;
+}
+
+#para {
+    color: black;
+    margin-block: 12px;
+    font-size: 1vw;
+}
+
+.img img {
+    height: 30vw;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 1px 1px 30px rgb(0, 0, 0);
+}
+
+#lets-talk-btn {
+    padding: 8px 20px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid crimson;
+    background: none;
+    color: crimson;
+    transition: 1s;
+}
+#lets-talk-btn:hover{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.services-section {
+    overflow: hidden;
+    width: 100%;
+    padding-block: 10px;
+    padding-bottom: 50px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px; 
+    position: relative;
+    /* background-color: blueviolet; */
+}
+.services-box{
+    width: 100%;
+    height: fit-content;
+}
+.our-services-text {
+    text-align: center;
+    font-size: 8vh;
+}
+
+.cards{
+    /* background-color: blue; */
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 26px;
+}
+.box-one,
+.box-two,
+.box-three {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.box-one p,
+.box-two p,
+.box-three p {
+    margin-block: 10px;
+    text-align: center;
+    color: black;
+}
+.box-one h2,
+.box-two h2,
+.box-three h2 {
+    color: black;
+}
+
+.read-btn {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    background: crimson;
+    border-radius: 50px;
+    border: 2px solid crimson;
+    transition: 1s;
+}
+
+.top-button:hover {
+    background: none;
+}
+.read-btn a{
+    text-decoration: none;
+}
+.read-btn:hover {
+    background: none;
+    color: rgb(0, 0, 0);
+}
+.hire-section {
+    margin-top: 15px;
+    background-color: #ffffff;
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hire-section h2{
+    color: crimson;
+    font-size: 2.4vw;
+}
+.hire-section button{
+    margin-top: 5px;
+    padding: 8px 20px;
+    font-size: 23px;
+    font-weight: 700;
+    background: none;
+    border-radius: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    color: black;
+    transition: 0.7s;
+}
+.hire-section button:hover{
+    color: crimson;
+    border: 2px solid crimson;
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer h2{
+    color: crimson;
+    font-size: 28px;
+}
+.footer h5{
+    margin-block: 4px;
+}
+.footer p{
+    color: crimson;
+    margin-top:8px;
+}
+.links-icon a{
+    margin-inline: 8px;
+    font-size: 27px;
+    text-decoration: none;
+}
+.links-icon a i{
+    transition: 0.7s;
+}
+.links-icon a i:hover{
+    color: crimson;
+}
+
+@keyframes line {
+    0% {
+        width: 0%;
+        left: 0;
+    }
+
+    50% {
+        width: 100%;
+        left: 0;
+    }
+
+    100% {
+        width: 0%;
+        left: 100%;
+    }
+}

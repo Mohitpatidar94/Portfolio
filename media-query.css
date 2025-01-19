@@ -1,0 +1,164 @@
+@media only screen and (max-width: 966px) {
+
+    .cards {
+        flex-direction: column;
+
+    }
+
+
+    .navbar ul li {
+        display: none;
+    }
+
+    .navbar ul i {
+        display: inline-block;
+    }
+
+    .box-one,
+    .box-two,
+    .box-three {
+        width: 40%;
+    }
+
+    .aboutme-section {
+        gap: 5vw;
+    }
+
+    .about {
+        padding-inline: 5vw;
+    }
+
+    #passion-text {
+        font-size: 32px;
+        width: 120%;
+        margin: 0px;
+    }
+
+    #para {
+        width: 120%;
+        font-size: 1.3vw;
+    }
+
+    #lets-talk-btn {
+        font-size: 1.6vw;
+    }
+
+    .services-box {
+        position: relative;
+    }
+
+    .box-one,
+    .box-two,
+    .box-three {
+        width: 70%;
+        position: relative;
+    }
+
+    .box-one p,
+    .box-two p,
+    .box-three p {
+        font-size: 14px;
+    }
+
+    .box-one img,
+    .box-two img,
+    .box-three img {
+        height: 10vw;
+    }
+
+    .read-btn {
+        padding: 5px 15px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .hire-section h2{
+        font-size: 6vw;
+        letter-spacing: -2px;
+    }
+    .hire-section button{
+        margin-top: 15px;
+        padding: 7px 18px;
+        font-size: 21px;
+    }
+    .footer h5{
+        width: 80%;
+        margin-block: 4px;
+        text-align: center;
+    }
+    .links-icon a{
+        margin-inline: 3px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .top-button {
+        display: none;
+    }
+    .header{
+        height: 75px;
+    }
+   .footer h2{
+    display: none;
+   }
+    #para{
+        font-size: 30px;
+    }
+    .hero {
+        font-size: 15px;
+    }
+    .hire-section{
+        height: 40%;
+    }
+    .hire-section h2{
+        font-size: 6vw;
+        letter-spacing: -.5px;
+    }
+    .hire-section button{
+        margin-top: 12px;
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+
+    .aboutme-section {
+        flex-direction: column;
+    }
+
+    .about-me {
+        width: 65%;
+
+    }
+
+    .img img {
+        height: 50vw;
+    }
+
+    #aboutme-text {
+        width: 100%;
+    }
+
+    #passion-text {
+        font-size: 32px;
+        width: 100%;
+    }
+
+    #para {
+        width: 120%;
+        font-size: 1.8vw;
+    }
+
+    #lets-talk-btn {
+        font-size: 2.3vw;
+    }
+
+}
+
+@media only screen and (max-width:480px) {
+    .aboutme-section{
+        height: 80%;
+        gap: 10px;
+    }
+    .img img {
+        height: 40vw;
+    }  
+}
