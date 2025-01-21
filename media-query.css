@@ -101,6 +101,7 @@
     .website-branding h1{
         font-size: 11vw;
         color:black;
+         line-height: 1.3;
     }
     .header{
         height: 75px;
