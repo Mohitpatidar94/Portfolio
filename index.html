@@ -5,35 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
+    <link rel="stylesheet" href="https://unpkg.com/sheryjs/dist/Shery.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media-query.css">
 </head>
 
 <body>
+    <div class="cube">
+        <nav class="nav">
+            <h2 class="magnet">Portfolio</h2>
+            <ul>
+                <li><a href="backend.php">Projects</a></li>
+                <li><a href="backend.php">Menu</a></li>
+                <li class="magnet"> <i class=" ri-menu-3-line"></i></li>
+            </ul>
+        </nav>
+        <div class="website-branding">
+            <h3>A Curious Mind Behind Creative Code</h3>
+            <h1 class="vdo">CREATIVE</h1>
+            <h1 class="vdo">WEB</h1>
+            <h1 class="vdo">DEVELOPER</h1>
+        </div>
+    </div>
     <div class="first-page">
-        <header class="header">
-            <div class="hero">
-                <h2>Fake <span class="hero-name">World</span></h2>
-            </div>
-            <nav class="navbar">
-                <ul>
-                    <li><a class="selected" href="\">Home</a></li>
-                    <li><a href="\">Project</a></li>
-                    <li><a href="\">Resources</a></li>
-                    <li><a href="\">About Us</a></li>
-                    <button class="top-button">Sign in</button>
-                    <i class="ri-menu-3-line"></i>
-                </ul>
-            </nav>
-        </header>
         <div class="name-section">
             <div class="about">
                 <h3 class="hello">Hello, My name is</h3>
-                <h3 class="name">Mohitt</h3>
-                <h3 class="passion">I'm Frontend Developer</h3>
-                <a class="linkdin-button" href="https://github.com/Mohitpatidar94" target="_blank" type="button">Github</a>
+                <h3 class="name">Mohit</h3>
+                <h3 class="passion">A Passionate Web Developer</h3>
+                <a class="linkdin-button magnet" href="https://github.com/Mohitpatidar94" target="_blank"
+                    type="button">Github</a>
             </div>
         </div>
     </div>
@@ -43,12 +45,11 @@
             <img src="images/scooby.jpg" alt="">
         </div>
         <div class="about-me">
-            <h1 id="aboutme-text">About Me</h1>
+            <h1 id="aboutme-text">A Little About Me</h1>
             <h2 id="passion-text">Developer <span>& designer</span></h2>
-            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nostrum explicabo dolorum fuga
-                magni dolorem cumque accusantium cupiditate laboriosam beatae ratione rerum ipsum praesentium excepturi
-                iure unde maiores adipisci possimus, inventore, corporis nesciunt!</p>
-            <button id="lets-talk-btn">Lets Talk</button>
+            <p id="para">I specialize in crafting visually appealing, responsive websites and dynamic user experiences using HTML, CSS, and JavaScript. My journey into web development began with a curiosity about how websites work, and over time, it has transformed into a full-fledged passion.
+                Developing projects like Tic Tac Toe and a feature-rich Portfolio Website, showcasing my technical skills and creativity.</p>
+            <button class="magnet" id="lets-talk-btn">Lets Talk</button>
         </div>
     </div>
     <div class="services-section">
@@ -58,44 +59,49 @@
         <div class="cards">
             <div class="box-one">
                 <img src="images/menu_25dp_F9004D_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                <h2>Web Development</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis optio, iste impedit
-                    esse perspiciatis soluta mollitia tenetur libero sint.</p>
+                <h2>Portfolio</h2>
+                <p>Optimizing website performance and accessibility for all devices.
+                    A personal portfolio website designed to showcase my skills, projects, and achievements as a web developer.
+                </p>
                 <button class="read-btn">Read More</button>
             </div>
             <div class="box-two">
                 <img src="images/person_25dp_F9004D_FILL0_wght400_GRAD0_opsz24.png" alt="">
                 <h2>Tic Tac Toe</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis optio, iste impedit
-                    esse perspiciatis soluta mollitia tenetur libero sint.</p>
+                <p>A simple yet engaging Tic Tac Toe game built using HTML, CSS, and JavaScript. Fully responsive design for both desktop and mobile devices.</p>
 
                 <button class="read-btn">Read More</button>
             </div>
             <div class="box-three">
                 <img src="images/notifications_active_25dp_F9004D_FILL0_wght400_GRAD0_opsz24.png" alt="">
-                <h2>Campa Website</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate blanditiis optio, iste impedit
-                    esse perspiciatis soluta mollitia tenetur libero sint.</p>
-                <button class="read-btn"><a href="https://github.com/Mohitpatidar94/Campa-website">Read More</a></button>
+                <h2>Campa</h2>
+                <p>A dynamic e-commerce website built using HTML, CSS, and JavaScript.</p>
+                <button class="magnet read-btn"><a href="https://github.com/Mohitpatidar94/Campa-website">Read
+                        More</a></button>
             </div>
         </div>
     </div>
 
     <div class="hire-section">
-        <h2>Let Me Get you A Beautiful Website</h2>
-        <button>Deal ?</button>
+        <h2>Let's Create Something Amazing Together!</h2>
+        <button class="magnet">Deal?</button>
     </div>
     <footer class="footer">
         <h2>Mohitt</h2>
         <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat et odit ipsum sunt pariatur, repellat
             provident?</h5>
         <div class="links-icon">
-            <a href="https://www.instagram.com/mohit94_/" target="_blank"><i class="ri-instagram-line"></i> </a>
-            <a href="https://www.linkedin.com/in/mohit-patidar-552739306/" target="_blank"> <i
+            <a class="magnet" href="https://www.instagram.com/mohit94_/" target="_blank"><i class="ri-instagram-line"></i> </a>
+            <a class="magnet" href="https://www.linkedin.com/in/mohit-patidar-552739306/" target="_blank"> <i
                     class="ri-linkedin-box-fill"></i>
             </a>
-            <a href="https://x.com/Mohit094_" target="_blank"> <i class="ri-twitter-x-line"></i> </a>
+            <a class="magnet" href="https://x.com/Mohit094_" target="_blank"> <i class="ri-twitter-x-line"></i> </a>
         </div>
-        <p>Copyright by mohit</p>
+        <!-- <p>Copyright by mohit</p> -->
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.155.0/three.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/sheryjs/dist/Shery.js"></script>
+    <script src="script.js"></script>
 </body>
