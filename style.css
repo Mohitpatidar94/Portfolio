@@ -4,13 +4,68 @@ body {
     height: 100%;
     background-color: rgb(0, 0, 0);
 }
+::selection{
+    background: white;
+    color: crimson;
+}
 
 * {
-    font-family: "averta CY w10";
+    font-family: "averta CY w10",'Segoe UI',sans-serif, Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
+}
+.cube {
+    background-color: white;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-inline: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding-inline: 4vw;
+}
+
+.nav h2 {
+    color: black;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-inline: 18px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li i {
+    color: black;
+}
+
+.website-branding {
+    padding: 18vh 8vw;
+}
+.website-branding h3{
+    color: crimson;
+    margin-left: 10px;
+}
+.website-branding h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px black;
+    display: inline-block;
+    font-size: 5.7vw;
+    margin-inline: 8px;
+    line-height: 0.8;
+}
+.website-branding h1:hover{
+    color: black;
 }
 
 .first-page {
@@ -21,73 +76,6 @@ body {
     height: 100%;
     width: 100%;
 }
-
-.header {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    padding-inline: 4.5vw;
-    align-items: center;
-}
-
-.hero {
-    font-size: 21px;
-}
-
-.hero-name {
-    color: crimson;
-}
-
-.navbar ul li {
-    display: inline-block;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    font-size: 18px;
-    margin-inline: 20px;
-    font-weight: 500;
-    transition: 0.2s;
-    position: relative;
-}
-
-.navbar ul li a::after {
-    content: "";
-    background-color: rgb(57, 57, 57);
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    width: 0%;
-    height: 2.2px;
-    width: 0%;
-}
-
-.navbar ul li a:hover::after {
-    animation: 0.8s line;
-}
-
-.navbar ul li a:hover {
-    color: crimson;
-}
-
-.navbar ul button {
-    padding: 8px 20px;
-    font-size: 18px;
-    font-weight: 700;
-    margin-left: 20px;
-    background: crimson;
-    border-radius: 50px;
-    border: 2px solid red;
-    transition: 1s;
-
-}
-.navbar ul i{
-    margin-left: 10px;
-    display: none;
-    font-size: 20px;
-}
-
 .name-section {
     width: 100%;
     height: calc(100% - 100px);
@@ -128,8 +116,9 @@ body {
     transition: 1s;
 }
 .linkdin-button:hover{
-    background-color: crimson;
-    color: white;
+    background-color: white;
+    color: black;
+    border: none;
 }
 
 .aboutme-section {
@@ -282,6 +271,7 @@ body {
 .hire-section h2{
     color: crimson;
     font-size: 2.4vw;
+    text-align: center;
 }
 .hire-section button{
     margin-top: 5px;
@@ -327,7 +317,7 @@ body {
     transition: 0.7s;
 }
 .links-icon a i:hover{
-    color: crimson;
+    color: white;
 }
 
 @keyframes line {
