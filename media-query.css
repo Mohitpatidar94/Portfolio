@@ -4,14 +4,14 @@
         flex-direction: column;
 
     }
-
-
-    .navbar ul li {
-        display: none;
+    .nav{
+        height: 70px;
     }
-
-    .navbar ul i {
-        display: inline-block;
+    .website-branding h3{
+        font-size: 3vw;
+    }
+    .website-branding h1{
+        font-size: 8vw;
     }
 
     .box-one,
@@ -95,6 +95,12 @@
     .top-button {
         display: none;
     }
+    .nav{
+        height: 55px;
+    }
+    .website-branding h1{
+        font-size: 11vw;
+    }
     .header{
         height: 75px;
     }
@@ -157,6 +163,9 @@
     .aboutme-section{
         height: 80%;
         gap: 10px;
+    }
+    .nav ul li a{
+        display: none;
     }
     .img img {
         height: 40vw;
